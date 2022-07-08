@@ -1,0 +1,73 @@
+/* a minimalist set of CSS resets */
+
+/* default to border-box */
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* adjust typography defaults */
+body {
+  margin: 1rem;
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+
+/* images and videos max out at full width */
+img,
+video {
+  height: auto;
+  max-width: 100%;
+}
+
+p {
+  font-family:Garamond, serif;
+}
+
+img {
+  width:400px;
+}
+
+button{
+  background-color:pink;
+}
+
+.hide:hover {
+  background-color:yellow;
+  width:5%;
+}
+
+.classy{
+  background-color:yellow;
+}
+
+.c2{
+  color:green;
+}
+#about_div {
+  background-image:linear-gradient(to left, pink, orange);
+  margin:10px;
+  border:5px solid black;
+  padding:20px;
+}
+#about_div:hover{ 
+  background-image:linear-gradient(to left, white, green);
+  border-radius:30px;
+}
+
+
+.carsect{
+  background-image:url(https://cdn.glitch.global/67ecf120-dd69-4537-8171-9e07163e1b88/bsc.webp?v=1657255982327);
+ background-position: center center;
+ background-size: cover;
+  height: 400px;
+  border-radius:5px;
+}
+
+#hoverrover:hover{
+ height:30px;
+}
